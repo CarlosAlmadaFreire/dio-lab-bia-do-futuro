@@ -3,7 +3,7 @@
 ## System Prompt
 
 ```
-[Cole aqui seu system prompt completo]
+
 
 Exemplo de estrutura:
 Você é um agente financeiro inteligente especializado em [área].
