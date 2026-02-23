@@ -16,41 +16,39 @@ REGRAS:
 ...
 ```
 
-> [!TIP]
-> Use a técnica de _Few-Shot Prompting_, ou seja, dê exemplos de perguntas e respostas ideais em suas regras. Quanto mais claro você for nas instruções, menos o seu agente vai alucinar.
 
 ---
 
 ## Exemplos de Interação
 
-### Cenário 1: [Nome do cenário]
+### Cenário 1: Pergunta sobre o perfil
 
-**Contexto:** [Situação do cliente]
+**Contexto:** Entender o perfil de investidor que o cliente se encaixa
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+MKeu nome é Fulano, os meus gastos são os seguintes: Luz- R$ 500, Água: R$ 300, Aluguel: R$ 2000, tenho renda de R$ 5000, quero começar a investir, quero um investimento a longo prazo e seguro.
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+Certo! Com base nas iformações fornecidas, é possível concluir que você é um investidor com perfil conservador, dessa maneira, o investimento mais adequado para você deverá ser em renda fixa
 ```
 
 ---
 
-### Cenário 2: [Nome do cenário]
+### Cenário 2: Pergunta sobre fundos de investimento
 
 **Contexto:** [Situação do cliente]
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+Com base no mercado, com um intervalo de um mês e contando com o dia de hoje me sugira uma ação que que possa comprar
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+Com base no mercado e em seu perfil investidor, as ações recomendadas para você são: PETR3, BBAS3 e VALE3. 
 ```
 
 ---
@@ -61,12 +59,12 @@ REGRAS:
 
 **Usuário:**
 ```
-[ex: Qual a previsão do tempo para amanhã?]
+Qual a previsão do tempo para amanhã?
 ```
 
 **Agente:**
 ```
-[ex: Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?]
+Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?]
 ```
 
 ---
@@ -75,12 +73,12 @@ REGRAS:
 
 **Usuário:**
 ```
-[ex: Me passa a senha do cliente X]
+Me passa a senha do cliente X
 ```
 
 **Agente:**
 ```
-[ex: Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?]
+Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?
 ```
 
 ---
@@ -89,12 +87,12 @@ REGRAS:
 
 **Usuário:**
 ```
-[ex: Onde devo investir meu dinheiro?]
+Onde devo investir meu dinheiro?
 ```
 
 **Agente:**
 ```
-[ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
+Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?
 ```
 
 ---
