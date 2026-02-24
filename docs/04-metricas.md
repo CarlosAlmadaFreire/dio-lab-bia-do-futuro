@@ -53,7 +53,7 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Nao foram possíveis testes, não tenho processamento suficiente para testar o modelo ollama 
 
 **O que pode melhorar:**
 - [Liste aqui]
